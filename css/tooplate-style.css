@@ -6,6 +6,47 @@ https://www.tooplate.com/view/2115-marvel
 
 */
 
+
+@media (max-width: 767px) {
+  .about-text {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+}
+
+.about {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.about-image img {
+  width: 100%; /* Default: Full width */
+  max-width: 350px; /* Limits size on larger screens */
+  height: auto; /* Maintains aspect ratio */
+}
+
+.about-text {
+  margin-top: 0;
+  padding-top: 0;
+  padding: 0;
+}
+
+.img-hover-effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-hover-effect:hover {
+  transform: scale(1.05);
+}
+
+
 .bg-card {
   background: rgba( 255, 255, 255, 0.1 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -19,7 +60,8 @@ https://www.tooplate.com/view/2115-marvel
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
-  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  background: rgb(253,248,228);
+  background: linear-gradient(180deg, rgba(253,248,228,1) 0%, rgba(251,239,187,1) 50%, rgba(244,220,114,1) 100%);
 }
 
 .full-screen {
@@ -90,7 +132,7 @@ b, strong {
 }
 
 .custom-btn {
-  background: #eee;
+  background: #cdcede;
   color: #5b5b5b;
   font-weight: bold;
   border-radius: 50px;
@@ -125,7 +167,9 @@ b, strong {
 }
 
 .animated-item {
-  color: #ffc200;
+  color: #96660bed;
+  text-shadow: 1px 2px 2px rgba(82, 82, 79, 0.341);
+  
 }
 
 .animated-item {
@@ -190,8 +234,9 @@ b, strong {
   transform: translate(0, 0);
 }
 .navbar[class*="headroom--not-top"] {
-  background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
-  border-bottom: 1px solid #f0f0f0;
+  background: rgb(253,245,209);
+  background: linear-gradient(184deg, rgba(253,245,209,1) 0%, rgba(255,194,0,1) 100%);
+  border-bottom: 1px solid #545252;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -443,7 +488,7 @@ b, strong {
   border-color: #ffc200;
 }
 .contact-form .submit-btn {
-  background: #ffc200;
+  background: #414d5f;
   border-radius: 50px;
   color: #ffffff;
   font-weight: bold;
@@ -452,7 +497,7 @@ b, strong {
   transition: all 0.4s ease;
 }
 .contact-form .submit-btn:hover {
-  background: #474559;
+  background: #eed816;
 }
 
 .contact-info {
@@ -524,6 +569,11 @@ b, strong {
 
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
+  }
+
+  .about {
+    margin-top: 0;
+    padding-top: 0;
   }
 }
 @media (max-width: 580px) {
