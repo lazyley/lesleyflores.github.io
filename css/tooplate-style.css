@@ -6,6 +6,9 @@ https://www.tooplate.com/view/2115-marvel
 
 */
 
+.bg-orange {
+  background-color: rgb(251, 59, 16);
+}
 
 @media (max-width: 767px) {
   .about-text {
